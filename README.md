@@ -9,8 +9,8 @@ Since Google Calendar API demands credentials of the given account, separate gma
 6. Enjoy your deadlines in Google Calender
 
 Email account details:
--email: moodle.calendar.real@gmail.com
--password: moodlecalendar123
+email: moodle.calendar.real@gmail.com
+password: moodlecalendar123
 
 *NOTE
 *Enter to gmail account of moodle.calendar.real@gmail.com which has access to Google Calendar API
