@@ -102,9 +102,9 @@ def transform_date(date_old):
             hour=int(part1)+12
         else:
             hour=int(part1)
-            minute = ''.join(i for i in part2 if i.isdigit()).strip()
-            date_final = str(now.year) + "-" + str(month_num) + "-" + str(day) + "T" + str(hour) + ":" + minute + ":00"
-            return date_final
+        minute = ''.join(i for i in part2 if i.isdigit()).strip()
+        date_final = str(now.year) + "-" + str(month_num) + "-" + str(day) + "T" + str(hour) + ":" + minute + ":00"
+        return date_final
 
 def month_converter(month):
     months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
