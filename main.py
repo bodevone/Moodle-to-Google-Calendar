@@ -188,7 +188,7 @@ for i in range(len(listD)):
         {'email': mail_name},
       ],
     }
-    #event = service.events().insert(calendarId='primary', body=event).execute()
+    event = service.events().insert(calendarId='primary', body=event).execute()
 
 print
 print '', len(listD), ' event(s) has(ve) been added to your Google Calendar'
